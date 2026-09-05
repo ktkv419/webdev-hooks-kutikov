@@ -10,7 +10,7 @@ function App() {
     const [page, setPage] = useState('board')
 
     return (
-        <div className="app-shell" id="appShell">
+        <div className="app-shell sidebar-collapsed" id="appShell">
             <Sidebar setPage={setPage} page={page}/>
             <div className="app-main">
                 <Header />
